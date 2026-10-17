@@ -9,7 +9,7 @@
 :root{--navy:#0d1b2a;--purple:#7024b8;--purple2:#a855f7;--ink:#17243b;--muted:#65738a;--line:#e4dfeb;--bg:#fffdfa;--good:#137547;--bad:#b42318}
 *{box-sizing:border-box}body{margin:0;background:#f5f3f8;color:var(--ink);font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
 .shell{max-width:960px;margin:0 auto;padding:22px 16px 48px}.hero{background:var(--navy);color:#fff;border-radius:20px;padding:25px 24px;display:flex;align-items:center;gap:20px;box-shadow:0 12px 32px #0d1b2a18}
-.logo{width:112px;height:112px;flex:0 0 112px;border-radius:12px;object-fit:contain;background:var(--navy)}.brand{font-size:clamp(24px,4vw,40px);line-height:.98;font-weight:900;letter-spacing:1px}.brand span{color:#852acb}.tag{color:#aeb8c4;margin-top:12px;letter-spacing:2px;font-size:13px}.date{color:#d9b8ff;font-weight:800;margin-top:16px;letter-spacing:1px}
+.logo{width:112px;height:112px;flex:0 0 112px;border-radius:12px;object-fit:contain;background:var(--navy)}.brand{font-size:clamp(24px,4vw,40px);line-height:.98;font-weight:900;letter-spacing:1px}.brand span{color:#c084fc}.tag{color:#aeb8c4;margin-top:12px;letter-spacing:2px;font-size:13px}.date{color:#d9b8ff;font-weight:800;margin-top:16px;letter-spacing:1px}
 .panel{background:var(--bg);border:1px solid var(--line);border-radius:20px;padding:clamp(20px,4vw,36px);margin-top:18px;box-shadow:0 7px 24px #17112a08}
 .topline{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;color:var(--muted);font-size:12px;font-weight:800;letter-spacing:1.1px;text-transform:uppercase}.progress{height:6px;background:#eee8f3;border-radius:99px;margin:16px 0 30px;overflow:hidden}.progress div{height:100%;width:0;background:linear-gradient(90deg,var(--purple),#c084fc);transition:width .2s}
 h1{font-size:clamp(23px,4vw,34px);line-height:1.28;letter-spacing:-.8px;margin:0 0 25px;color:#0d1b2a}.options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.option{display:flex;gap:13px;align-items:flex-start;border:1px solid var(--line);background:white;border-radius:14px;padding:17px;min-height:70px;text-align:left;font:inherit;color:inherit;cursor:pointer;transition:border .15s,background .15s;line-height:1.45}.option:hover{border-color:#b27ae5}.option:focus-visible,button:focus-visible{outline:3px solid #c9a0f3;outline-offset:2px}.letter{display:grid;place-items:center;min-width:32px;height:32px;border:1px solid var(--line);border-radius:9px;color:#69758c;font-size:13px;font-weight:800}.option.selected{border:2px solid var(--purple);padding:16px;background:#f8f1ff}.option.selected .letter{background:var(--purple);border-color:var(--purple);color:white}
@@ -20,8 +20,8 @@ h1{font-size:clamp(23px,4vw,34px);line-height:1.28;letter-spacing:-.8px;margin:0
 </head>
 <body><main class="shell">
 <header class="hero">
-<img class="logo" alt="Fluent Vibes Academy logo" src="logo.png" onerror="this.style.display='none'">
-<div><div class="brand">FLUENT<br><span>VIBES</span></div><div class="tag">FLUENT ENGLISH, FEARLESS YOU!</div><div class="date">WEEKEND MCQ TEST · 17 OCTOBER 2026</div></div>
+<img class="logo" alt="Fluent Vibes Academy logo" src="logo.svg" onerror="this.style.display='none'">
+<div><div class="brand">WEEKEND<br><span>MCQ TEST</span></div><div class="tag">SPOKEN ENGLISH · REAL-LIFE SITUATIONS</div><div class="date">17 OCTOBER 2026 · 25 QUESTIONS · 15 MINUTES</div></div>
 </header>
 <section id="quiz" class="panel">
 <div class="topline"><span id="count">QUESTION 1 OF 25</span><span>15 MINUTES · 25 QUESTIONS</span></div><div class="progress"><div id="bar"></div></div>
