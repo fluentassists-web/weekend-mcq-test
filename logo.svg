@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+<rect width="600" height="600" fill="#0d1b2a"/>
+<g font-family="Arial,Helvetica,sans-serif" font-weight="900" fill="#fff" letter-spacing="-4">
+<text x="43" y="266" font-size="133">FLUENT</text>
+<text x="42" y="411" font-size="139" fill="#7024b8">V</text><text x="143" y="411" font-size="139" fill="#fff">IBES</text>
+</g>
+<path d="M55 430 H500" stroke="#7024b8" stroke-width="2"/>
+<text x="57" y="468" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="300" fill="#9299a3" letter-spacing="2.1">FLUENT ENGLISH, FEARLESS YOU!</text>
+</svg>
